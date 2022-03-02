@@ -1,0 +1,54 @@
+
+.navbar {
+    text-align: center;
+
+}
+
+.navbar-brand{
+    font-size: 40px;
+}
+
+.nav-link{
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container-fluid {
+    display: inline-block;
+    
+}
+@media(max-width:768px){
+
+    .nav-link {
+
+        font-size: 20px;
+
+    }
+    .navbar-brand{
+        font-size: 30px;
+    }
+}
+
+.scl-icon{
+    width: 50px;
+}
+
+@media(max-width:474px){
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .nav-link {
+
+        font-size: 15px;
+
+    }
+    .scl-icon{
+        width: 30px;
+    }
+}
+
+.nav-link:hover{
+    color: #0d6efd !important;
+    background-color: #fff;
+}
