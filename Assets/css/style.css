@@ -1,3 +1,6 @@
+html {
+    scroll-padding-top: 100px;
+ }
 .navbar {
     text-align: center;
 
@@ -45,7 +48,9 @@
         width: 30px;
     }
 }
-
+.nav-link-active{
+    color: #261772;
+}
 .nav-link:hover {
     color: #fff !important;
     background-color: #a5b1c2;
@@ -69,3 +74,26 @@
     font-size: 50px;
 
 }
+
+
+.icon{
+
+    font-size: 60px;
+}
+.num-cards{
+    background-color: #261772 !important;
+    opacity: 0.8;
+}
+.bg{
+    background-color:  rgba(117,79,254);
+
+}
+.com{
+    color: rgba(156, 163, 175,);
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1;
+
+}
+
+
