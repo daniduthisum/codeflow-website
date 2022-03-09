@@ -101,6 +101,13 @@ html {
     line-height: 1;
 
 }
+.swiper-button-next, .swiper-button-prev{
+
+    position: relative;
+    bottom:  -10% !important;
+   
+   
+   }
 
 iframe {
     width: 100%;
