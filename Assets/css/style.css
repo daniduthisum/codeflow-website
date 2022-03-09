@@ -1,6 +1,7 @@
 html {
     scroll-padding-top: 100px;
- }
+}
+
 .navbar {
     text-align: center;
 
@@ -48,9 +49,11 @@ html {
         width: 30px;
     }
 }
-.nav-link-active{
+
+.nav-link-active {
     color: #261772;
 }
+
 .nav-link:hover {
     color: #fff !important;
     background-color: #a5b1c2;
@@ -76,24 +79,82 @@ html {
 }
 
 
-.icon{
+.icon {
 
     font-size: 60px;
 }
-.num-cards{
+
+.num-cards {
     background-color: #261772 !important;
     opacity: 0.8;
 }
-.bg{
-    background-color:  rgba(117,79,254);
+
+.bg {
+    background-color: rgba(117, 79, 254);
 
 }
-.com{
-    color: rgba(156, 163, 175,);
+
+.com {
+    color: rgba(156, 163, 175, );
     font-weight: 700;
     font-size: 3.75rem;
     line-height: 1;
 
 }
 
+iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
 
+
+}
+
+.main {
+
+    background-color: rgb(46, 43, 43);
+    color: #fff;
+    border-radius: 15px;
+
+
+    position: relative;
+    top: -80px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+
+#contact {
+    margin: 50px;
+    border-radius: 30px;
+
+}
+
+@media(max-width:1200px) {
+
+    .form-main {
+
+        float: none;
+        width: 80%;
+    }
+
+    .map {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media(max-width:768px) {
+
+    .form-main {
+
+        padding-left: 0px !important;
+        width: 100%;
+    }
+
+    .contact-img {
+
+        width: 100% !important;
+    }
+
+}
