@@ -80,7 +80,7 @@ html {
 
 .text {
     font-size: 45px;
-    background: -webkit-linear-gradient(-70deg, #1B9CFC 0%, #55E6C1 100%);
+    background: -webkit-linear-gradient(-70deg, #f7f1e3 0%, #55E6C1 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
